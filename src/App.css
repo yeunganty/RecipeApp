@@ -20,19 +20,18 @@
   width: 42px;
 }
 
-
 .scale-logo {
-  height: 3.5vmin;
+  height: 28px;
   pointer-events: none;
 }
 
-.App-header {
+.recipe-header {
   padding-top: 0.5cm;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(16px + 2vmin);
+  font-size: 40px;
 }
 
 .Ingredient-header {
@@ -41,7 +40,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(16px + 2vmin);
+  font-size: 35px;
 }
 
 .Instruction-header {
@@ -49,20 +48,32 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(16px + 2vmin);
+  font-size: 35px;
 }
 
 .list-font {
-  font-size: calc(16px);
+  font-size: 14px;
 }
 
 .table-ingredients {
   align-items: center;
-  font-size: calc(16px);
+  font-size: 16px;
 }
 
 li {
   padding-top: 0.2cm;
+}
+
+.block {
+  align-items: center;
+  min-width: 650px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 60%;
+  height: 100%;
+  background-color: #edfaff;
+  display: inline-block;
 }
 
 
